@@ -1,6 +1,19 @@
 body, header, footer{
     margin: 0;
 }
+@font-face {
+    font-family: "JaldiR";
+    src: url("../fonts/Jaldi-Regular.ttf");
+}
+@font-face {
+    font-family: "JaldiB";
+    src: url("../fonts/Jaldi-Bold.ttf");
+}
+@font-face {
+    font-family: "Million Mile";
+    src: url("../fonts/The Million Mile Man.ttf");
+}
+
 header{
     top: 0;
 }
@@ -11,6 +24,7 @@ header{
     background-position-x: center;
 }
 nav{
+    top: -30px;
     position: absolute;
     width: 100%;
     background-color: #98EECC;
@@ -30,7 +44,8 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
-    font-family: "Helvetica";
+    font-family: "JaldiB";
+    font-size: larger;
 }
 nav a:hover{
     color: white;
@@ -58,8 +73,18 @@ nav a:hover{
 }
 .footer a, .footer p{
     text-decoration: none;
-    font-family: "Helvetica";
+    font-family: "JaldiR";
 }
 .footer a:hover{
     color: blue;
+}
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 50%;
+    position: fixed;
+    font-family: "Million Mile";
+    font-size: 400%;
 }
