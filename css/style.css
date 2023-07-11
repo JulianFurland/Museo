@@ -13,8 +13,11 @@ body, header, footer{
     font-family: "Million Mile";
     src: url("../fonts/The Million Mile Man.ttf");
 }
-
-h1, h2, h3, h4, h5{
+@font-face {
+    font-family: "Archivo";
+    src: url("../fonts/Archivo-Light.ttf");
+}
+h2, h3, h4, h5{
     font-family: "JaldiR";
 }
 header{
@@ -94,13 +97,14 @@ nav a:hover{
     color: blue;
 }
 .title{
+    color: white;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    bottom: 50%;
+    bottom: 47%;
     position: fixed;
-    font-family: "Million Mile";
+    font-family: "Archivo";
     font-size: 400%;
 }
 .section_ex{
