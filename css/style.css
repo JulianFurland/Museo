@@ -14,8 +14,23 @@ body, header, footer{
     src: url("../fonts/The Million Mile Man.ttf");
 }
 
+h1, h2, h3, h4, h5{
+    font-family: "JaldiR";
+}
 header{
     top: 0;
+}
+.ex{
+    background: url(../imgs/bgex.jpg);
+    background-repeat: repeat-x;
+    background-size: 80%;
+    background-position-x: center;
+}
+.contacto{
+    background: url(../imgs/bgcontacto.jpg);
+    background-repeat: repeat-x;
+    background-size: 90%;
+    background-position-x: center;
 }
 .index{
     background-image: url(../imgs/bgindex.jpg);
@@ -87,4 +102,49 @@ nav a:hover{
     position: fixed;
     font-family: "Million Mile";
     font-size: 400%;
+}
+.section_ex{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    top: 30%;
+    right: 50%;
+    left: 50%;
+}
+.exhibicion{
+    margin: 1rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+}
+.img_exhibicion{
+    width: 400px;
+}
+.flecha{
+    margin-top: 10rem;
+    width: 50px;
+}
+.section_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 25rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    right: 50%;
+    color: white;
+    line-height: 1rem;
+}
+.contac_apps{
+    margin: 1rem;
 }
