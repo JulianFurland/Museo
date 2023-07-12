@@ -23,6 +23,11 @@ h2, h3, h4, h5{
 header{
     top: 0;
 }
+.eventos{
+    background-image: url(../imgs/bgev.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
 .ex{
     background: url(../imgs/bgex.jpg);
     background-repeat: repeat-x;
@@ -74,7 +79,6 @@ nav a:hover{
     bottom: -20px;
     width: 100%;
     background-color: #98EECC;
-    margin: 0;
 }
 .footer ul{
     display: flex;
@@ -151,4 +155,27 @@ nav a:hover{
 }
 .contac_apps{
     margin: 1rem;
+}
+.sec_eventos{
+    color: white;
+    width: 1920px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec_eventos img{
+    width: 600px;
+}
+.bot_reservar{
+    display: block;
+    background-color: blue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bot_reservar h3{
+    color: white;
+    text-decoration: none;
 }
